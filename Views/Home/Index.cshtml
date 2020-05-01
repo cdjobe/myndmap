@@ -1,0 +1,36 @@
+﻿
+<body>
+    <div class="container-fluid">
+
+        <div id="instructions" class="inline-block">
+            <h2>Legend</h2>
+            <ul>
+                <li>1 - zoom out</li>
+                <li>2 - zoom in</li>
+                <li>'s' - square</li>
+                <li>'e' - ellipse</li>
+                <li>j - left</li>
+                <li>l - right</li>
+                <li>i - up</li>
+                <li>k - down</li>
+                <li>select shape, direction, type</li>
+            </ul>  
+
+        </div>
+        <canvas id="myCanvas" class="inline-block" resize></canvas>
+        <div class="row d-flex justify-content-center">
+            <input id="inputBox" type="text">
+             <button id="newMap">New Map</button> 
+        </div>
+        <div id="fileList" class="inline-block">
+            <h2>Files:</h2>
+            <ul>
+                @foreach(var file in ViewBag.AllFiles)
+                {
+                    <li><span class="filePath" path="@file">@file</span></li>
+                }
+            </ul>
+        </div>
+
+    </div>
+</body>

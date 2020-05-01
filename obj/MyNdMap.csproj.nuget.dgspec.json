@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jobe/Documents/Coding_Dojo/project-feb/MyNdMap/MyNdMap.csproj": {}
+  },
+  "projects": {
+    "/home/jobe/Documents/Coding_Dojo/project-feb/MyNdMap/MyNdMap.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jobe/Documents/Coding_Dojo/project-feb/MyNdMap/MyNdMap.csproj",
+        "projectName": "MyNdMap",
+        "projectPath": "/home/jobe/Documents/Coding_Dojo/project-feb/MyNdMap/MyNdMap.csproj",
+        "packagesPath": "/home/jobe/.nuget/packages/",
+        "outputPath": "/home/jobe/Documents/Coding_Dojo/project-feb/MyNdMap/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/jobe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
